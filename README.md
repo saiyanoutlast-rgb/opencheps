@@ -40,7 +40,7 @@ Bootstrap classification on a synthetic mid-game position with templates capture
 
 ---
 
-## How the board detector works
+## How the board detector works?
 
 The naive approach (`getPixel()` in a quad-nested loop) is dead on arrival — that's ~3 million JNI calls per frame, multi-second latency on the P30 Lite. I rewrote it properly:
 
